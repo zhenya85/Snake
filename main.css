@@ -1,0 +1,126 @@
+body{
+    background-image: url("img/fone.gif");
+}
+
+
+#snake-field {
+    display: inline-block;
+}
+
+#snake-new-game {
+    width: 150px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+
+.game-table {
+    border-collapse: collapse;
+    background-color: #373737;
+}
+
+td.game-table-cell {
+    width: 15px;
+    height: 15px;
+    border: 1px dotted #9b9b9b;
+}
+
+.left-shadow{
+    box-shadow: -5px 0 15px 0 orangered;
+}
+
+.right-shadow{
+    box-shadow: 5px 0 15px 0 orangered;
+}
+
+.top-shadow{
+    box-shadow: 0 -5px 15px 0 orangered;
+}
+
+.buttom-shadow{
+    box-shadow: 0 5px 15px 0 orangered;
+}
+
+
+.snake-unit {
+    background-color: white;
+}
+
+.obstacles-unit{
+    background-color: saddlebrown;
+}
+
+.food-unit {
+    background-color: red;
+}
+
+.secret-unit{
+    background-color: greenyellow;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.wrap {
+    margin: 30px 15% 0;
+    text-align: center;
+    float: left;
+}
+.info_game{
+    width: 450px;
+    padding: 10px;
+    margin: 30px 10px;
+    border: solid 1px  #4AB8B9;
+    background-color: #EAFFFE;
+    float: left;
+    border-radius: 20px;
+
+}
+table{
+    border-collapse: collapse;
+
+}
+.row_info{
+    text-align: right;
+    padding: 15px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.input_info{
+    color: red;
+    font-size: 30px;
+}
+.info_content{
+    border: 1px solid black;
+    width: 800px;
+    min-height: 100px;
+    float: left;
+    clear: both;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: lemonchiffon;
+    padding: 5px 30px;
+}
+.red_circle{
+    display: inline-block;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+.green_circle{
+    display: inline-block;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
