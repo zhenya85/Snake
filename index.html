@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра "Змейка"</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<div class="wrap wrap-theme-black">
+    <div id="snake-field"></div>
+    <div class="buttons">
+        <div id="snake-new-game">Новая игра</div>
+    </div>
+</div>
+<div class="info_game">
+    <table>
+        <tr>
+            <td class="row_info">До окончания игры осталось:</td>
+            <td class="input_info finish_game">---</td>
+        </tr>
+        <tr>
+            <td class="row_info">Текущий счет:</td>
+            <td class="input_info score_game">---</td>
+        </tr>
+        <tr>
+            <td class="row_info">Время снятия ограничения со стен:</td>
+            <td class="input_info time_border">---</td>
+        </tr>
+        <tr>
+            <td class="row_info">Оставшееся кол-во препятствий:</td>
+            <td class="input_info time_wall">---</td>
+        </tr>
+        <tr>
+            <td class="row_info">Текущая скорость змейки:</td>
+            <td class="input_info time_wall speed_snake">---</td>
+        </tr>
+
+    </table>
+</div>
+<div class="info_content">
+    <h3>Специфика игры:</h3>
+    <ol>
+        <li><span class="red_circle"></span> - еда змейки. Поедая пищу, змейка
+            увеличивается в размерах.</li>
+        <li><span class="green_circle"></span> - секретный элемент. Делает змейку короче, но
+            при этом увеличивается ее скорость. Появится при счете 10.</li>
+        <li>Змейка может проходить только через подсвеченные стены. Состояние стен меняется каждые 10 сек.</li>
+        <li>По мере прохождения игры будут появляться препятствия. Их количество указано в информационной таблице.</li>
+
+    </ol>
+</div>
+</body>
+</html>
